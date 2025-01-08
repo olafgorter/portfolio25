@@ -16,6 +16,6 @@ const tl = gsap.timeline();
 // );
 gsap.fromTo(
 	'.imgContainer',
-	{ x: -500, opacity: 0 },
-	{ x: 1, opacity: 1, scale: 1, duration: 2.5, ease: 'elastic.out(1,0.7)' }
+	{ x: -800, opacity: 0 },
+	{ x: 10, opacity: 1, scale: 1, duration: 4.5, ease: 'elastic.out(1,0.13)' }
 );

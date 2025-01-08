@@ -126,7 +126,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 24px;
+    gap: 34px;
+    margin-bottom: 8px;
 }
 
 .imgContainer {
