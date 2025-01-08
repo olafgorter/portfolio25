@@ -52,7 +52,7 @@ nav {
     color: var(--secondary-color);
     display: flex;
     align-items: center;
-    gap: 22px;
+    gap: 18px;
 }
 
 nav a {
@@ -62,11 +62,11 @@ nav a {
 
 nav a i {
     cursor: pointer;
-    padding: 8px;
+    padding: 4px;
 	border: 2px solid #3b82f6;
-	border-radius: 50%;
-    font-size: 0.9em;
-    transition: .5s;
+	border-radius: 100%;
+    font-size: 1.4em;
+    transition: .3s;
 }
 
 nav a i:hover {
@@ -80,7 +80,7 @@ nav a:hover {
     opacity: 0.7;
 }
 
-.home-detail .social-icons {
+/* .home-detail .social-icons {
 	margin-left: 20px;
 }
 
@@ -100,7 +100,7 @@ nav a:hover {
 	background: #fff;
 	box-shadow:  0 0 10px #fff;
 	color: #333;
-}
+} */
 
 main,
 section,
