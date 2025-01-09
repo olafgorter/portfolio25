@@ -1,4 +1,16 @@
-const tl = gsap.timeline();
+gsap.registerPlugin(TextPlugin);
+
+gsap.to('.quote', {
+	duration: 1.9,
+	text: {
+		value: '"I write code and pruts door."',
+		delimiter: ' ',
+		// oldClass: 'start',
+		// newCLass: 'end',
+	},
+});
+
+//const tl = gsap.timeline();
 
 // tl.from(
 // 	'.imgContainer',
@@ -17,5 +29,5 @@ const tl = gsap.timeline();
 gsap.fromTo(
 	'.imgContainer',
 	{ x: -600, opacity: 0 },
-	{ x: 20, opacity: 1, scale: 1, duration: 5, ease: 'elastic.out(1,0.13)' }
+	{ x: 20, opacity: 1, scale: 1, duration: 4, ease: 'elastic.out(1,0.13)' }
 );

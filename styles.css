@@ -1,3 +1,5 @@
+
+
 :root {
     /* --primary-color: #adf0d4; */
     --primary-color: #93c5fd;
@@ -100,6 +102,14 @@ nav a:hover {
 	background: #fff;
 	box-shadow:  0 0 10px #fff;
 	color: #333;
+} */
+/* gsap classes
+oldClass {
+    color: red
+}
+
+newClass {
+    color: blue
 } */
 
 main,
@@ -267,3 +277,4 @@ section {
         margin-right: auto;
     }
 }
+
