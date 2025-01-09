@@ -1,7 +1,7 @@
 gsap.registerPlugin(TextPlugin);
 
 gsap.to('.quote', {
-	duration: 1.9,
+	duration: 2.1,
 	text: {
 		value: '"I write code and pruts door."',
 		delimiter: ' ',
@@ -29,5 +29,12 @@ gsap.to('.quote', {
 gsap.fromTo(
 	'.imgContainer',
 	{ x: -600, opacity: 0 },
-	{ x: 20, opacity: 1, scale: 1, duration: 4, ease: 'elastic.out(1,0.13)' }
+	{
+		x: 20,
+		opacity: 1,
+		scale: 1,
+		duration: 2,
+		delay: 2,
+		ease: 'elastic.out(1,1.24)',
+	}
 );
