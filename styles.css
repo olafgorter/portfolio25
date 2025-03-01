@@ -161,10 +161,11 @@ section {
 }
 
 .imagecontainer {
-  width: 250px;
-  height: 20vh;
+  width: 100%;
+  height: 30vh;
   overflow: hidden;
   display: flex;
+  /* flex:5; */
 }
 
 .imagecontainer img {
