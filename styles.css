@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* object-fit: cover; */
     font-family: 'Inter', sans-serif;
     /* transition-duration: 200ms; */
 }
@@ -157,6 +158,20 @@ section {
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.imagecontainer {
+  width: 50vw;
+  height: 15vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.hobbieImage {
+    
+    height: inherit;
+    width: inherit;
+    object-fit:fill;
 }
 
 .stats {
